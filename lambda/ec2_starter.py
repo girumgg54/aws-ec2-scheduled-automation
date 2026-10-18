@@ -8,8 +8,8 @@ REGION = os.environ.get("AWS_REGION", "af-south-1")
 ec2 = boto3.client("ec2", region_name=REGION)
 
 INSTANCE_IDS = [
-    "i-0b44dac3aabb9f73f",
-    "i-0fc64c4e422be6e2a",
+    "i-0123456789abcdef0",
+    "i-0123456789abcdef1",
 ]
 
 
