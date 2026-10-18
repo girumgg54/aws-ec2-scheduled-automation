@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials and local configuration
+.aws/
+credentials
+config
+
+# SSH private keys
+*.pem
+*.key
+
+# Terraform files and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
