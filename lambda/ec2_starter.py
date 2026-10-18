@@ -8,8 +8,9 @@ REGION = os.environ.get("AWS_REGION", "af-south-1")
 ec2 = boto3.client("ec2", region_name=REGION)
 
 INSTANCE_IDS = [
-    "i-0123456789abcdef0",
-    "i-0123456789abcdef1",
+    instance_id.strip()
+    for instance_id in os.environ["INSTANCE_IDS"].split(",")
+    if instance_id.strip()
 ]
 
 
