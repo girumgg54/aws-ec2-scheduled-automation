@@ -121,4 +121,4 @@ The full end-to-end automation lifecycle was tested and verified in a live AWS s
 - [Architecture](doc/architecture.md) — AWS components and execution flow.
 - [Deployment Guide](doc/deployment.md) — How to deploy the project.
 - [EC2 Startup Function](lambda/ec2_starter.py) — Python implementation.
-- [EC2 Shutdown Function](lambda/ec2_stopper.py) — Python implementation.)
+- [EC2 Shutdown Function](lambda/ec2_stopper.py) — Python implementation.
